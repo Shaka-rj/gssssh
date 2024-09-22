@@ -1,0 +1,331 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* -- start index --*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #efefef;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 6px 10px;
+}
+
+.categories {
+    display: flex;
+    background-color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.category {
+    color: #000;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-size: 14px;
+    text-align: center;
+}
+.category .img {
+    width: 150px;
+    border-radius: 20px;
+}
+.category img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    margin: 20px 6px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.card .info {
+    padding: 6px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card .name {
+    font-size: 20px;
+}
+.card .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .address {
+    font-size: 12px;
+}
+.card a {
+    color: #000;
+}
+
+/* -- end index -- */
+
+/* --- start product --- */
+.product {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.product .img {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+.product img {
+    width: 100%;
+}
+
+.product .name {
+    font-size: 30px;
+}
+.product .price {
+    font-size: 26px;
+}
+
+.product .phone {
+    border: 1px solid #03d;
+    border-radius: 10px;
+    padding: 6px;
+    width: 200px;
+    color: #03d;
+}
+
+.product .buy {
+    
+}
+
+/* -- end product -- */
+
+/* --- login --- */
+.login {
+    text-align: center;
+}
+.login form {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    width: 50%;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.login form input, .login form select {
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 20px auto;
+    display: block;
+}
+
+.login .links {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.login .links a {
+    text-decoration: underline;
+    margin: 20px;
+}
+.login .error {
+    color: #f00;
+}
+/* -- end login -- */
+
+/*---------------seller */
+
+
+.seller {
+    display: flex;
+}
+
+.seller .left-navbar { 
+    width: 260px;
+    height: 100vh;
+    border: 1px solid #eee;
+    margin-right: 10px;
+}
+
+.seller .left-navbar .links {
+    display: flex;
+    flex-direction: column;
+}
+.seller .left-navbar .links a {
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #fefefe;
+    transition: .5s;
+}
+.seller .left-navbar .links a:hover {
+    border: 1px solid #e2e2e2;
+}
+.seller .left-navbar .links .active {
+    background-color: #e2e2e2;
+    border: 1px solid #e2e2e2;
+}
+
+.seller .left-navbar {
+    background-color: #fefefe;
+}
+
+.seller .main {
+    width: 100%;
+}
+
+/* dashboard */
+.seller .dashboard .part {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+/* products */
+
+
+.seller .products {
+    display: flex;
+    flex-wrap: wrap;
+}
+.seller .products .card {
+    width: 190px;
+    border: 1px solid #e2e2e2;
+    padding: 2px;
+}
+.seller .products .card .name {
+    font-size: 16px;
+}
+.seller .products .card .status {
+    font-size: 13px;
+}
+
+.seller .products .card a {
+    color: #aaa;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+.seller .products .card a:hover {
+    color: #dd0;
+}
+
+
+.seller .product .img {
+    width: 300px;
+}
+.seller .product .address {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+}
+.seller .add-product {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 10px;
+    transition: 0.3s;
+    color: #00f;
+}
+.seller .add-product:hover {
+    color: #fff;
+    background-color: #00f;
+    border: 1px solid #00f;
+}
+
+.seller .add-form input {
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding-left: 6px;
+    outline: none;
+}
+.seller .add-form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    padding-left: 6px;
+    outline: none;
+}
+.seller .add-form select {
+    font-size: 16px;
+}
+
+
+/* baalnce */
+
+.seller .balance .deposit, .seller .balance .withdraw {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.seller .balance .deposit:hover, .seller .balance .withdraw:hover {
+    color: #fff;
+    background-color: #00f;
+    border: 1px solid #00f;
+}
+
+.seller .balans {
+    margin-bottom: 30px;
+}
+.seller .balans span {
+    display: block;
+    font-size: 24px;
+    border-bottom: 1px solid #aaa;
+}
+
+.seller .tr-table {
+    width: 96%;
+    
+}
+
+.seller .tr-table table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.seller .tr-table tr {
+    border: 1px solid #aaa;
+}
+
+.seller .tr-table table a {
+    text-decoration: underline;
+}
